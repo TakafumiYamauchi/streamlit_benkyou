@@ -4,6 +4,8 @@
 
 # --- 手元の解説ドキュメント（公開リポジトリには上げない） ---
 *.docx
+# ただし磨き上げ版ガイド（Word）はリポジトリに含める（中身はプレースホルダのみ）
+!Google_Sheets_Streamlit_ガイド_実地検証版_20260606.docx
 
 # --- Python ---
 __pycache__/
@@ -15,3 +17,4 @@ env/
 # --- OS / エディタ ---
 .DS_Store
 .ipynb_checkpoints/
+.~lock.*#
