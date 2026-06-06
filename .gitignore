@@ -1,0 +1,17 @@
+# --- 認証情報（絶対にコミットしない） ---
+.streamlit/secrets.toml
+*.json
+
+# --- 手元の解説ドキュメント（公開リポジトリには上げない） ---
+*.docx
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- OS / エディタ ---
+.DS_Store
+.ipynb_checkpoints/
